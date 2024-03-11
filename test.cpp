@@ -100,5 +100,6 @@ signed main() {
 	}
 	for(int i = 1; i <= n - 1; i++) if(res[i] == -1) res[i] = 1e6;
 	for(int i = 1; i <= n - 1; i++) cout << res[i] << " ";
+	cout << "TEST";
     return 0; 
 }
